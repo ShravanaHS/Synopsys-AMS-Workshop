@@ -20,7 +20,7 @@ This repository documents the design and analysis of a fundamental CMOS Inverter
 ## Design Flow
 
 <div align="center">
-    <img src="images/inverter_symbol.png" alt="Inverter Symbol">
+    <img src="https://github.com/ShravanaHS/Synopsys-AMS-Workshop/blob/main/images/designflow.png" alt="Inverter Symbol">
     <p><strong>Design Flow</strong></p>
 </div>
 
@@ -46,7 +46,7 @@ A key advantage of the CMOS inverter is its extremely low static power consumpti
 ## Symbol of Inverter
 
 <div align="center">
-    <img src="images/inverter_symbol.png" alt="Inverter Symbol">
+    <img src="https://github.com/ShravanaHS/Synopsys-AMS-Workshop/blob/main/images/symbol.png" alt="Inverter Symbol">
     <p><strong>Logic Symbol of an Inverter</strong></p>
 </div>
 
@@ -61,8 +61,13 @@ The CMOS inverter consists of one PMOS transistor and one NMOS transistor connec
 This schematic was created using **Synopsys Custom Compiler™**.
 
 <div align="center">
-    <img src="images/inverter_schematic.png" alt="CMOS Inverter Schematic">
+    <img src="https://github.com/ShravanaHS/Synopsys-AMS-Workshop/blob/main/images/invertersch.png" alt="CMOS Inverter Schematic">
     <p><strong>CMOS Inverter Circuit Schematic</strong></p>
+</div>
+
+<div align="center">
+    <img src="https://github.com/ShravanaHS/Synopsys-AMS-Workshop/blob/main/images/invertertb.png" alt="CMOS Inverter Schematic">
+    <p><strong>CMOS Inverter Test Bench</strong></p>
 </div>
 
 ---
@@ -83,7 +88,7 @@ A DC sweep analysis is performed by sweeping the input voltage (Vin) from 0V to 
 -   **Noise Margins:** $NM_H = V_{OH} - V_{IH}$ and $NM_L = V_{IL} - V_{OL}$.
 
 <div align="center">
-    <img src="images/inverter_vtc.png" alt="Inverter VTC Curve">
+    <img src="https://github.com/ShravanaHS/Synopsys-AMS-Workshop/blob/main/images/invertertran.png" alt="Inverter VTC Curve">
     <p><strong>Voltage Transfer Characteristic (VTC) of the Inverter</strong></p>
 </div>
 
@@ -97,7 +102,7 @@ Transient analysis is used to measure the dynamic performance of the inverter. A
 -   **$t_f$ (Fall Time):** Time for the output to fall from 90% to 10% of its initial value.
 
 <div align="center">
-    <img src="images/inverter_delay.png" alt="Inverter Delay Waveform">
+    <img src="images/invertertrans.png" alt="Inverter Delay Waveform">
     <p><strong>Transient Response for Delay Calculation</strong></p>
 </div>
 
