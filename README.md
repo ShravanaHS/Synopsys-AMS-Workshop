@@ -17,6 +17,12 @@ The entire design and verification flow is carried out using the Synopsys tool s
 This repository documents the design and analysis of a fundamental CMOS Inverter. The inverter is the most basic logic gate in digital electronics, serving as the foundation for more complex digital circuits. Its primary function is to invert the input logic level. This project covers the complete design flow, from schematic creation and pre-layout simulation to physical layout, verification (DRC/LVS), parasitic extraction, and final post-layout simulation to analyze the impact of physical effects on circuit performance.
 
 ---
+## Design Flow
+
+<div align="center">
+    <img src="images/inverter_symbol.png" alt="Inverter Symbol">
+    <p><strong>Design Flow</strong></p>
+</div>
 
 ## Functionality
 
